@@ -1,0 +1,31 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    git (1.2.5)
+    jeweler (1.6.4)
+      bundler (~> 1.0)
+      git (>= 1.2.5)
+      rake
+    json (1.6.1)
+    mime-types (1.16)
+    nokogiri (1.5.0)
+    oauth (0.4.5)
+    rake (0.9.2)
+    rcov (0.9.10)
+    shoulda (2.11.3)
+    twitter_oauth (0.4.3)
+      json (>= 1.1.9)
+      mime-types (>= 1.16)
+      oauth (>= 0.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.0.0)
+  jeweler (~> 1.6.4)
+  nokogiri
+  oauth
+  rcov
+  shoulda
+  twitter_oauth

@@ -14,13 +14,20 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
+
   gem.name = "twitter-avatar-update"
+  gem.add_dependency 'oauth'
+  gem.add_dependency 'twitter_oauth'
+  gem.add_dependency 'nokogiri'
+  gem.executables = ['twitter-avatar-update']
   gem.homepage = "http://github.com/ip2k/twitter-avatar-update"
-  gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.license = "Creative Commons by-nc-sa"
+  gem.summary = "Updates your Twitter avatar to a random user-created avatar"
+  gem.description = "Updates your Twitter avatar to a random user-created avatar from http://eightshit.me"
   gem.email = "github@seanp2k.endjunk.com"
   gem.authors = ["ip2k"]
+
+
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
